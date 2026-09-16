@@ -14,6 +14,7 @@ const navItems = [
   { id: 'phase-3', label: 'Phase 3' },
   { id: 'phase-4', label: 'Phase 4' },
   { id: 'automation', label: 'Automation' },
+  { id: 'mission-control', label: 'Monitor' },
   { id: 'parity', label: 'Verification' },
 ];
 

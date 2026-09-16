@@ -5,6 +5,7 @@ import { StackTable } from './components/StackTable';
 import { MonorepoStructure } from './components/MonorepoStructure';
 import { PhaseSection } from './components/PhaseSection';
 import { AutomationTriggers } from './components/AutomationTriggers';
+import { MissionControl } from './components/MissionControl';
 import { ParityLock } from './components/ParityLock';
 import { Footer } from './components/Footer';
 import { phases, Phase } from './data/phases';
@@ -42,6 +43,7 @@ export default function App() {
         ))}
         
         <AutomationTriggers />
+        <MissionControl />
         <ParityLock />
       </main>
       
