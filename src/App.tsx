@@ -4,6 +4,7 @@ import { Hero } from './components/Hero';
 import { StackTable } from './components/StackTable';
 import { MonorepoStructure } from './components/MonorepoStructure';
 import { PhaseSection } from './components/PhaseSection';
+import { AutomationTriggers } from './components/AutomationTriggers';
 import { ParityLock } from './components/ParityLock';
 import { Footer } from './components/Footer';
 import { phases, Phase } from './data/phases';
@@ -40,6 +41,7 @@ export default function App() {
           <PhaseSection key={phase.id} phase={phase} index={index} />
         ))}
         
+        <AutomationTriggers />
         <ParityLock />
       </main>
       
